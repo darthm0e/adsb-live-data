@@ -1,1 +1,2 @@
-git add . ; git commit -m "update" ; git push
+cd /home/pi/git/adsb-live-data && git commit -a -m "update"
+cd /home/pi/git/adsb-live-data && git push
