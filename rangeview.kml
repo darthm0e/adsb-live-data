@@ -5,6 +5,26 @@
     <description>Example</description>
 <Style id="track-1">
       <LineStyle>
+        <color>ffeb2113</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffeb2113</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>1</name>
+      <description>09000- 9500</description>
+      <styleUrl>#track-1</styleUrl>
+      <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+9.43364,49.54060,9290
+</coordinates>
+      </LineString>
+    </Placemark>
+<Style id="track-2">
+      <LineStyle>
         <color>ffeb1336</color>
         <width>2</width>
       </LineStyle>
@@ -13,12 +33,13 @@
       </PolyStyle>
     </Style>
     <Placemark>
-      <name>1</name>
+      <name>2</name>
       <description>09500-10000</description>
-      <styleUrl>#track-1</styleUrl>
+      <styleUrl>#track-2</styleUrl>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
+9.43364,49.54060,9290
 9.34588,49.58586,9534
 </coordinates>
       </LineString>
