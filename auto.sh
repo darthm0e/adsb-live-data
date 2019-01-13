@@ -1,4 +1,4 @@
-'!/bin/bash
+#!/bin/bash
 rm rangeview.kmz
 zip -r rangeview.zip rangeview.kml
 mv rangeview.zip rangeview.kmz
